@@ -2,7 +2,7 @@ import sqlite3
 
 def main():
     # Establish connection to SQLite database
-    conn = sqlite3.connect('example.db')
+    conn = sqlite3.connect('goods.db')
 
     # Create a cursor object
     c = conn.cursor()
